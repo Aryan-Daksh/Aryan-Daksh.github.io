@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto+Mono&display=swap');
+            </style>
+        <link rel="icon" type="image/x-icon" href="Assets\TITLE.jpg">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title style="font-family: roboto mono;">ARYAN DAKSH</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+ <body>
+    <video autoplay muted loop id="myVideo">
+      <source src="Assets\background_video.mp4" type="video/mp4">
+      </video>
+   
+   <div class="profile">
+    <img class="backdrop" src="Assets\My Pic.jpg" alt="Aryan Daksh Pic">
+    <div class="myinfo"> 
+    <h2><span>Hello,I am Aryan Daksh.</span></h2>
+ 
+    <p><span> I am an Engineering Candidate at ITER College, Bhubaneswar with a raging curiosity towards Computer Sciences,
+    who hopes to use his skills in obtaining an Internship in your esteemed Company ,helping me to gain Industrial knowledge and experience. 
+    Moreover to better understand the Work culture.</span> </p>
+    </div>   
+</div>
+<footer>
+    <a class="fa fa-linkedin-square" style="font-size:1.4rem" href="https://www.linkedin.com/in/aryan-daksh" > Linkedin</a>
+    <a class="fa fa-github" style="font-size:1.4rem" href="https://github.com/Aryan-Daksh"> GitHub</a>
+    <a class="fa fa-instagram" style="font-size:1.4rem" href="https://instagram.com/the_aryan_daksh?igshid=ZDdkNTZiNTM="> Instagram</a>
+    <a class="fa fa-leetcode" style="font-size:1.4rem" href="https://instagram.com/the_aryan_daksh?igshid=ZDdkNTZiNTM="> 
+        <svg width="1.4rem" height="1.3rem" style="color: rgb(68, 252, 48);" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0zm-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382 1.38 1.38 0 0 0-1.38-1.382z" fill="#44fc30"> 
+
+            </path>
+        </svg> LeetCode</a>
+
+ </footer>
+ <button id="myBtn" onclick="myFunction()">Pause</button>
+
+ 
+
+ </body>
+
+ <script>
+    // Get the video
+    var video = document.getElementById("myVideo");
+    
+    // Get the button
+    var btn = document.getElementById("myBtn");
+    
+    // Pause and play the video, and change the button text
+    function myFunction() {
+      if (video.paused) {
+        video.play();
+        btn.innerHTML = "Pause";
+      } else {
+        video.pause();
+        btn.innerHTML = "Play";
+      }
+    }
+    </script>
+   
+</html>
